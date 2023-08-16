@@ -1,5 +1,6 @@
 # Pokedex
 
+<<<<<<< HEAD
   
 
 Welcome to pokedex project, in this project we will create a pokedex using flask and the [PokeAPI](https://pokeapi.co/) in version2.
@@ -34,15 +35,11 @@ git clone https://github.com/MatheusCeliniSena/Pokedex.git
 
 #### On Windows:
 ```
-
 venv\Scripts\activate
-
 ```
-
 #### On macOS and Linux:
 
 ```
-
 source venv/bin/activate
 . venv/bin/activate # Other method
 ```
