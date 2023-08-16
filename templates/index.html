@@ -1,0 +1,29 @@
+<form action="{{ url_for('buscar') }}" method="POST">
+    <input placeholder="Buscar pokemon" name="nome" type="text">
+    <button type="submit" name="buscar">Buscar</button>
+</form>
+
+{% if pokemon %}
+    <hr>
+    <img src="{{ pokemon.photo }}" alt="{{ pokemon.name }} image">
+    <h3>{{ pokemon.name }}</h3>
+    
+    <table>
+        <tr>
+            <th>HP</th>
+            <th>Attack</th>
+            <th>Defense</th>
+            <th>Special Attack</th>
+            <th>Special Defense</th>
+            <th>Speed</th>
+        </tr>
+        <tr>
+            <td>{{ pokemon.hp }}</td>
+            <td>{{ pokemon.attack }}</td>
+            <td>{{ pokemon.defense }}</td>
+            <td>{{ pokemon.special_attack }}</td>
+            <td>{{ pokemon.special_defense }}</td>
+            <td>{{ pokemon.speed }}</td>
+        </tr>
+    </table>
+{% endif %}
