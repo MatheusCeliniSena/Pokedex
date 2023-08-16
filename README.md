@@ -32,7 +32,7 @@ source venv/bin/activate
 #### Other method
 ```
 . venv/bin/activate 
-
+```
 
 |                |Front-End                                      |Back-End                                      |Data Layer                  |
 |----------------|-------------------------------------------|---------------------------------------|-----------------------|
