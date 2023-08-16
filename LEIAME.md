@@ -28,15 +28,12 @@ git clone https://github.com/MatheusCeliniSena/Pokedex.git
 
 #### On Windows:
 ```
-
 venv\Scripts\activate
-
 ```
 
 #### No macOS e Linux:
 
 ```
-
 source venv/bin/activate
 . venv/bin/activate # Other method
 ```
