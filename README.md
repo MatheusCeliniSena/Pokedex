@@ -1,7 +1,7 @@
 # Pokedex
 
 
-## Instalação
+## Installing
 
   
 
