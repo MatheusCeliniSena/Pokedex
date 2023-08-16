@@ -22,20 +22,16 @@ git clone git@github.com:MatheusCeliniSena/Pokedex.git
 #### HTTP
 ```
 git clone https://github.com/MatheusCeliniSena/Pokedex.git
-
 ```
 ## Activate the virtual environment:
 
-#### On Windows:
-```
-venv\Scripts\activate
-```
-#### On macOS and Linux:
-
+#### No macOS e Linux:
 ```
 source venv/bin/activate
-. venv/bin/activate # Other method
 ```
+#### Other method
+```
+. venv/bin/activate 
 
 
 |                |Front-End                                      |Back-End                                      |Data Layer                  |
