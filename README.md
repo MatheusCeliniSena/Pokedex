@@ -3,7 +3,7 @@
 Welcome to pokedex project, in this project we will create a pokedex using flask and the [PokeAPI](https://pokeapi.co/) in version2.
 
 
-## Instalação
+## Installing
 
 1. Install the Python 3.8.5 or higher version:
 
