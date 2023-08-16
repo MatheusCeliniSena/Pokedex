@@ -1,12 +1,5 @@
 # Pokedex
 
-<<<<<<< HEAD
-  
-
-Welcome to pokedex project, in this project we will create a pokedex using flask and the [PokeAPI](https://pokeapi.co/) in version2.
-
-  
-  
 
 ## Instalação
 
