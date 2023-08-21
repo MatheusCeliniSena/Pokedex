@@ -39,7 +39,7 @@ source venv/bin/activate
 |----------------|-------------------------------------------|---------------------------------------|-----------------------|
 |Features        |Presents basic data on the web            |Functions ready, missing filters    |Pokemon segmentation   |
 |Style           |CSS styling in development              |Ready with some limitations       |K-Means algorithm     |
-|Interaction     |Filter buttons in implementation        |Integrated PokeAPI API              |DBSCAN algorithm       |
+|Interaction     |Filter buttons in implementation        |Integrated PokeAPI API              |XGBoost algorithm       |
 |Responsiveness  |In progress                              |Complete Flask integration         |Random Forest algorithm|
 
 
