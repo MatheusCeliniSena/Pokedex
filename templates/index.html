@@ -14,13 +14,7 @@
     <form action="{{ url_for('buscar') }}" method="POST" class="poke-search-form">
         <input type="text" name="nome" class="form-control" placeholder="Buscar pokemon" aria-label="Recipient's username" aria-describedby="button-addon2">
         <button class="btn btn-outline-secondary" type="submit" name="buscar">Buscar</button>
-        <div class="center-on-page">
-            <div class="pokeball">
-                <div class="pokeball__button"></div>
-            </div>
-        </div>
     </form>
-    
 </div>
 
 {% if pokemon %}
@@ -47,7 +41,6 @@
                 <td>{{ pokemon.speed }}</td>
             </tr>
         </table>
-        <button class="add-poke-list"></button>
     </div>
 {% endif %}
 
