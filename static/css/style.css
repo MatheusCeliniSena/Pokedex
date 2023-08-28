@@ -1,0 +1,96 @@
+/* Reset de estilos para remover margens e preenchimentos padrão */
+body, h1, h3, form, input, button, table {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+/* Estilização do corpo da página */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0; /* Cor de fundo para a página */
+    color: #333; /* Cor do texto principal */
+}
+
+/* Estilização do cabeçalho */
+.container-header {
+    background-color: #FF6F61; /* Cor de fundo para o cabeçalho */
+    color: #fff; /* Cor do texto no cabeçalho */
+    padding: 20px;
+    text-align: center;
+}
+
+/* Estilização do título */
+h1 {
+    font-size: 36px;
+}
+
+/* Estilização do formulário de pesquisa */
+.poke-search-form {
+    margin-top: 20px;
+    display: flex; /* Para alinhar o botão e o campo de pesquisa lado a lado */
+}
+
+/* Estilização do campo de pesquisa */
+.form-control {
+    width: 70%; /* Reduzido para acomodar o botão ao lado */
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-right: 3px; /* Espaçamento de 3px à direita do campo de pesquisa */
+}
+
+/* Estilização do botão de busca */
+.btn-outline-secondary {
+    border-color: #ccc;
+    background-color: #FF6F61; /* Cor da Pokedex */
+    color: #fff; /* Cor do texto no botão */
+}
+
+/* Estilização da seção de informações do Pokémon */
+.container-pokemon {
+    background-color: #FF6F61; /* Cor de fundo da seção, mesma da Pokedex */
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+/* Estilização da tabela de estatísticas */
+.table {
+    width: 80%; /* Reduzido o tamanho da tabela para ficar mais centralizada */
+    margin: 20px auto; /* Centralizar horizontalmente */
+    border-collapse: collapse;
+}
+
+/* Estilização das células do cabeçalho da tabela */
+th {
+    background-color: #FF6F61;
+    color: #fff;
+    padding: 10px;
+    text-align: left;
+}
+
+/* Estilização das células de dados da tabela */
+td {
+    padding: 10px;
+    border-top: 1px solid #ccc;
+    text-align: left;
+}
+
+
+
+.img-pokemon img {
+    width: 200px; /* Defina a largura desejada para a imagem */
+    height: auto; /* Mantenha a proporção original da imagem */
+}
+
+/* Estilização da imagem centralizada */
+/* .container-pokemon img {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    width: 10%;
+} */

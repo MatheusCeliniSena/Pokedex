@@ -1,4 +1,3 @@
-
 from flask import Flask, render_template, request
 import requests
 from models.pokemon import Pokemon
@@ -17,7 +16,7 @@ def buscar():
     if request.method == 'POST':
         nome_pokemon = request.form["nome"]
         response = requests.get(f"https://pokeapi.co/api/v2/pokemon/{nome_pokemon.lower()}")
-        
+
         if response.status_code == 200:
             data = response.json()
             pokemon = Pokemon(
@@ -30,11 +29,11 @@ def buscar():
                 speed=data['stats'][5]['base_stat'],
                 photo=data['sprites']['front_default']
             )
-            
+
             return render_template('index.html', pokemon=pokemon)
         else:
             return render_template('index.html', error="Pokémon não encontrado")
-    
+
     return render_template('index.html')
 
 
